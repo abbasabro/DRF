@@ -1,0 +1,58 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual environment
+# This is crucial. It ignores any folder named 'venv' or 'env' anywhere in the repo.
+venv/
+env/
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*.bak
+*.swo
+
+# OS generated files
+.DS_Store
+.Trashes
+Thumbs.db
+
+# Django specific stuff:
+# Log files
+*.log
+
+# Database files - IMPORTANT! Each project will likely have its own db.sqlite3
+# This ignores any file named db.sqlite3 anywhere in the repo.
+db.sqlite3
+
+# Media and Static files collected by Django
+# These are typically deployed separately and not version controlled.
+media/
+static_collected/  # Or whatever you call your STATIC_ROOT
+
+# Sensitive files - CRITICAL for security!
+# These should NEVER be committed.
+# If you use local_settings.py for local development, it should be ignored.
+# For production, environment variables are preferred for these values.
+local_settings.py
+
+# Environment variables files (e.g., used by django-environ or python-decouple)
+.env
+.flaskenv
+
+# If you have specific files like development.ini, production.ini etc.
+# *.ini
